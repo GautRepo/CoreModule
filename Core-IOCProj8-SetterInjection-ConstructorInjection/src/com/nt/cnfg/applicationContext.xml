@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	<bean id="stud" class="com.nt.comp.Student">
+		<!-- <constructor-arg value="1000"/>
+		<constructor-arg value="Gautam"/>
+		<constructor-arg value="Patna"/>
+		<constructor-arg value="70.8f"/> -->
+		<property name="sno" value="1000"/>
+		<property name="sAdd" value="Patna"/>
+	</bean>
+</beans>

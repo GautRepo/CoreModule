@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	<bean id="mrk" class="com.nt.beans.Marks">
+	<constructor-arg name="m3" value="100"/>
+	<constructor-arg value="20"/>
+	<constructor-arg value="10"/>
+	</bean>
+	
+	<bean id="emp" class= "com.nt.beans.Employee">
+	<constructor-arg value="100.02f" type="float"/>
+	<!-- <constructor-arg value="Gautam" type="java.lang.String"/> preferred-->
+	<constructor-arg value="Gautam" type="String"/>
+	<constructor-arg value="1000" type="int"/>
+	</bean>
+	
+	<bean id="stud" class="com.nt.beans.Student">
+	<constructor-arg name="sadd" value="Patna"/>
+	<constructor-arg name="sname" value="Gautam"/>
+	<constructor-arg name="sno" value="01"/>
+	<constructor-arg name="total" value="100"/>
+	
+	</bean>
+	
+
+</beans>
